@@ -1,0 +1,79 @@
+.tableClient{
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.tableClient__head{
+    padding: auto;
+    background-color: rgba(249, 246, 246, 0.888);
+}
+
+.tableClient__head tr th{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.tableClient__body{
+    padding: auto;
+}
+
+.tableClient__body tr td{
+    padding: 1.5rem;
+}
+
+.tableClient__search{
+    display: flex;
+    align-items: center;
+}
+
+.tableClient__search input{
+    padding: .5rem;
+    border: 1px solid #ccc;
+    max-width: 25rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+}
+
+
+.searchIcon{
+    background-color: var(--colorHighLight);
+    padding: .5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tableClient__header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.tableClient__header--buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableClient__header--buttons button{
+    padding: .5rem;
+    color: #fff;
+    border: none;
+    background-color: rgba(118, 236, 15, 0.763);
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--fuentePrincipal);
+    cursor: pointer;
+
+}
+
+.tableClient__header--buttons button:hover{
+    background-color: rgba(84, 162, 16, 0.763);
+}

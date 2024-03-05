@@ -1,0 +1,33 @@
+#root{
+  --fontColor :rgba(36, 36, 36, 0.762);
+  --opcionesBtn:rgb(122, 226, 87);
+  --fuentePrincipal:'Ubuntu', sans-serif;
+  --colorPrimario:#5BC0F8;
+  --colorSecundario:#0081C9;
+  --colorTerciario:#86E5FF;
+  --colorHighLight:#FF6347;
+  --colorHighLightSecundario:#FF825C; 
+}
+
+.app{
+  margin: 0;
+  
+  width: 100%;
+  overflow: hidden;
+}
+.sombra{
+  box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.75);
+}
+
+
+.header__app{
+  display: flex;
+  background-color: var(--colorPrimario);
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+ 
+}
+

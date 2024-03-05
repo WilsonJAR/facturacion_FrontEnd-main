@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;      /* hack para box model*/
+  scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+  font-size: 16px;
+  font-family: 'Krub', sans-serif;
+  background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco) 100%);
+  background-color: rgb(239, 238, 238);
+
+
+}
+
+
+
+h1{
+  font-size: 3.8rem;
+  
+}
+
+h2{
+  font-size: 2.8rem;
+}
+
+h3{
+  font-size: 1.8rem;
+}
+
+h1,h2,h3{
+ 
+  font-family: 'Ubuntu', sans-serif;
+} 
+
